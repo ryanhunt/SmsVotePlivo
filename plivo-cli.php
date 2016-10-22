@@ -25,8 +25,8 @@ print_r($response);
 $p = new RestAPI($plivo_auth_id, $plivo_auth_token);
 
 $params = array(
-    'src' => '61466645903',
-    'dst' => '61466645903',
+    'src' => $plivo_testNumber,
+    'dst' => $plivo_testNumber,
     'text' => 'Hello, how are you?'
 );
 $response = $p->send_message($params);
