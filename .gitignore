@@ -2,3 +2,7 @@ vendor/
 *.espressostorage
 
 *.lock
+
+www/plivoauth.php
+
+telstraauth.php
