@@ -13,7 +13,7 @@ use Plivo\RestAPI;
 
 $token = getTelstraToken($telstra_ConsumerKey, $telstra_ConsumerSecret);
 
-$response = sendTelstraSMS($token, "0466645903", "Hello world.");
+$response = sendTelstraSMS($token, $telstra_testNumber, "Hello world.");
 
 print_r($response);
 
